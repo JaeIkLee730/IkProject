@@ -179,8 +179,7 @@ void print_team_assignment()
 		printf("\n") ;
 	}
 }
-
-void main(int argc, char ** argv) 
+int main(int argc, char ** argv) 
 {	
 	char c ; 
 	char * fconflict = NULL ;
