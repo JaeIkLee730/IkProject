@@ -46,6 +46,7 @@ int read_student_list(char* fileName)
 			fprintf(stderr,"Invalid student ID was detected. \n");
 			exit(1);
 			}//Cause an error ,if student id is not in the range.
+	return 0;
 }
 
 int get_student_index(int id) 
@@ -178,7 +179,6 @@ void print_team_assignment()
 		printf("\n") ;
 	}
 }
-
 
 void main(int argc, char ** argv) 
 {	
